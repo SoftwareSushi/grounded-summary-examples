@@ -2,7 +2,7 @@
 
 **Unreleased technical preview.** This product is not available for subscription yet. The notebook intentionally stops before any AWS operation until the certified package ARN and image digest are populated from actual release evidence. No output is fabricated or stored in the notebook.
 
-Open [sample_notebook.ipynb](sample_notebook.ipynb) for the prepared boto3 real-time and line-split batch flow, fictional multilingual requests, and compute cleanup. The preview targets `us-east-1` and one `ml.g6e.2xlarge` instance. After release it will require a subscription, permissions in your AWS account, and the corresponding real-time/batch quotas.
+Open [sample_notebook.ipynb](sample_notebook.ipynb) for the prepared boto3 real-time and line-split batch flow, fictional multilingual requests, and compute cleanup. The preview targets `us-east-1`, one `ml.g6e.4xlarge` real-time instance and one optional `ml.g6e.2xlarge` Batch Transform instance. These are proposed capacity candidates; matching-image qualification and certification remain pending. After release it will require a subscription, permissions in your AWS account, and the corresponding real-time/batch quotas.
 
 `examples/input.json` is a direct invocation body. `examples/batch-input.jsonl` contains one request per line. These inputs are fictional. Actual qualified output samples will be added after the matching AWS image passes its release gates.
 
